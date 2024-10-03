@@ -85,7 +85,7 @@ plt.axis('off')
 
 ![Screenshot 2024-10-03 105242](https://github.com/user-attachments/assets/452813fb-eb86-499f-8124-bd173133e2f6)
 
-``
+```
 plt.subplot(2, 3, 3)
 plt.imshow(scaled_image)
 plt.title("Scaled Image")
@@ -122,16 +122,16 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-```
+
 # Plot cropped image separately as its aspect ratio may be different
-```
+
 plt.figure(figsize=(4, 4))
 plt.imshow(cropped_image)
 plt.title("Cropped Image")
 plt.axis('off')
 plt.show()
 
-
+```
 ```
 ### vi)Image Cropping
 
