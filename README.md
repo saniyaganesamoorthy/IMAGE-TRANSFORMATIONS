@@ -77,45 +77,43 @@ plt.title("Original Image")
 plt.axis('off')
 ```
 ```
-plt.subplot(2, 3, 2)
+
 plt.imshow(translated_image)
 plt.title("Translated Image")
 plt.axis('off')
 ```
 ### i)Image Translation
+![Screenshot 2024-10-03 111012](https://github.com/user-attachments/assets/87be2fdc-63df-4003-b153-b13e3b52db34)
 
-![Screenshot 2024-10-03 105242](https://github.com/user-attachments/assets/452813fb-eb86-499f-8124-bd173133e2f6)
 
 ```
-plt.subplot(2, 3, 3)
 plt.imshow(scaled_image)
 plt.title("Scaled Image")
 plt.axis('off')
 ```
 ### ii) Image Scaling
-![Screenshot 2024-10-03 105311](https://github.com/user-attachments/assets/eae9d60a-2e0b-4669-9c2a-afbb565e10a1)
+![Screenshot 2024-10-03 111045](https://github.com/user-attachments/assets/31aba4a9-ffde-46c7-b59f-befbb38cf3f2)
+
 ```
-plt.subplot(2, 3, 4)
 plt.imshow(sheared_image)
 plt.title("Sheared Image")
 plt.axis('off')
 ```
 ### iii)Image shearing
 
+![Screenshot 2024-10-03 111118](https://github.com/user-attachments/assets/5f294ec5-be27-4b5c-beb5-f7a4a947161f)
 
-![Screenshot 2024-10-03 105345](https://github.com/user-attachments/assets/fb443ffd-0cb6-4f11-958b-44cef5a4c7db)
+
 ```
-plt.subplot(2, 3, 5)
 plt.imshow(reflected_image)
 plt.title("Reflected Image")
 plt.axis('off')
 ```
 ### iv)Image Reflection
 
-![Screenshot 2024-10-03 105412](https://github.com/user-attachments/assets/e4982be9-8594-4d54-8b38-8443d44553e7)
-```
+![Screenshot 2024-10-03 111138](https://github.com/user-attachments/assets/4515f932-f67e-416d-89af-55de932b8f6b)
 
-plt.subplot(2, 3, 6)
+```
 plt.imshow(rotated_image)
 plt.title("Rotated Image")
 plt.axis('off')
@@ -123,11 +121,12 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-
-# Plot cropped image separately as its aspect ratio may be different
+### v)Image Rotated
+![Screenshot 2024-10-03 111315](https://github.com/user-attachments/assets/380dea39-157a-473d-80f2-da2cf8316b60)
 
 
 ```
+# Plot cropped image separately as its aspect ratio may be different
 plt.figure(figsize=(4, 4))
 plt.imshow(cropped_image)
 plt.title("Cropped Image")
@@ -137,8 +136,7 @@ plt.show()
 ```
 ### vi)Image Cropping
 
-![Screenshot 2024-10-03 105529](https://github.com/user-attachments/assets/f57a0b91-020e-4648-94b0-fda240e95ce3)
-
+![Screenshot 2024-10-03 111338](https://github.com/user-attachments/assets/318332ab-d8b8-4766-b438-c58786339a2c)
 
 ## Result: 
 
