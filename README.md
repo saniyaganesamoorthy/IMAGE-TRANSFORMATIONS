@@ -33,9 +33,10 @@ Display the transformed images using Matplotlib for visualization. Convert the B
 # Step5:
 Save or display the final transformed images for analysis and use plt.show() to display them inline in Jupyter or compatible environments.
 ## Program:
-```
+
 Developed By: SANIYA G
 Register Number:212223240147
+```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -73,26 +74,45 @@ plt.subplot(2, 3, 1)
 plt.imshow(image_rgb)
 plt.title("Original Image")
 plt.axis('off')
-
+```
+```
 plt.subplot(2, 3, 2)
 plt.imshow(translated_image)
 plt.title("Translated Image")
 plt.axis('off')
+```
+### i)Image Translation
 
+![Screenshot 2024-10-03 105242](https://github.com/user-attachments/assets/452813fb-eb86-499f-8124-bd173133e2f6)
+
+``
 plt.subplot(2, 3, 3)
 plt.imshow(scaled_image)
 plt.title("Scaled Image")
 plt.axis('off')
-
+```
+### ii) Image Scaling
+![Screenshot 2024-10-03 105311](https://github.com/user-attachments/assets/eae9d60a-2e0b-4669-9c2a-afbb565e10a1)
+```
 plt.subplot(2, 3, 4)
 plt.imshow(sheared_image)
 plt.title("Sheared Image")
 plt.axis('off')
+```
+### iii)Image shearing
 
+
+![Screenshot 2024-10-03 105345](https://github.com/user-attachments/assets/fb443ffd-0cb6-4f11-958b-44cef5a4c7db)
+```
 plt.subplot(2, 3, 5)
 plt.imshow(reflected_image)
 plt.title("Reflected Image")
 plt.axis('off')
+```
+### iv)Image Reflection
+
+![Screenshot 2024-10-03 105412](https://github.com/user-attachments/assets/e4982be9-8594-4d54-8b38-8443d44553e7)
+```
 
 plt.subplot(2, 3, 6)
 plt.imshow(rotated_image)
@@ -101,8 +121,10 @@ plt.axis('off')
 
 plt.tight_layout()
 plt.show()
-
+```
+```
 # Plot cropped image separately as its aspect ratio may be different
+```
 plt.figure(figsize=(4, 4))
 plt.imshow(cropped_image)
 plt.title("Cropped Image")
@@ -111,33 +133,10 @@ plt.show()
 
 
 ```
-## Output:
-### i)Image Translation
-
-![Screenshot 2024-10-03 105242](https://github.com/user-attachments/assets/452813fb-eb86-499f-8124-bd173133e2f6)
-
-### ii) Image Scaling
-![Screenshot 2024-10-03 105311](https://github.com/user-attachments/assets/eae9d60a-2e0b-4669-9c2a-afbb565e10a1)
-
-
-### iii)Image shearing
-
-
-![Screenshot 2024-10-03 105345](https://github.com/user-attachments/assets/fb443ffd-0cb6-4f11-958b-44cef5a4c7db)
-
-### iv)Image Reflection
-
-![Screenshot 2024-10-03 105412](https://github.com/user-attachments/assets/e4982be9-8594-4d54-8b38-8443d44553e7)
-
-
-
-### v)Image Rotation
-
-![Screenshot 2024-10-03 105451](https://github.com/user-attachments/assets/86223641-4efd-439e-95a4-0198ed6e8f08)
-
 ### vi)Image Cropping
 
 ![Screenshot 2024-10-03 105529](https://github.com/user-attachments/assets/f57a0b91-020e-4648-94b0-fda240e95ce3)
+
 
 ## Result: 
 
